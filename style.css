@@ -1,0 +1,84 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Filter and Sort Controls styles */
+#sorting {
+  margin-bottom: 20px;
+}
+
+/* Product item styles */
+.product-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-item h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-item p {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.product-item img {
+  height: 200px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+div{
+  text-align: center;
+}
